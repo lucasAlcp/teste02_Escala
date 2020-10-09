@@ -14,11 +14,11 @@
     // 0 = off (for production use)
     // 1 = client messages
     // 2 = client and server messages
-    $mail->SMTPDebug = 2;
+    //mail->SMTPDebug = 2;
     //Ask for HTML-friendly debug output
-    $mail->Debugoutput = 'html';
+    //$mail->Debugoutput = 'html';
 
-    $mail->Host = 'smtp.escalaweb.com';
+    $mail->Host = 'smtp.escalaweb.com.br';
     // use
     // $mail->Host = gethostbyname('smtp.gmail.com');
     // if your network does not support SMTP over IPv6

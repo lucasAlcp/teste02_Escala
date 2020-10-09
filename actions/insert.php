@@ -25,11 +25,11 @@
         $sql = "INSERT INTO contatos(nome, email, telefone, mensagem) VALUES ('$nome', '$email', '$tel', '$msg')";
         if(mysqli_query($connect, $sql)):
             require 'email.php';
-           //header('location: ../index.php');
+           header('location: ../index.php');
         else:
             echo "ERRO ao cadastrar";
         endif; 
-        //header('location: ../index.php');
+        header('location: ../index.php');
         
     endif;
 ?>
